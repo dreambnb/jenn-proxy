@@ -1,21 +1,37 @@
 {
-  "name": "FEC-Mo-Booking-Proxy",
+  "name": "SDC-Proxy",
   "version": "1.0.0",
-  "description": "Booking (proxy part)",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server/index.js",
+    "start": "node index.js",
     "server": "nodemon --inspect server/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HR93-JAMS/FEC-mo-proxy.git"
+    "url": ""
   },
-  "author": "Moyeong Lee(2000prcs@gmail.com)",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "bluebird": "^3.5.1",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "isomorphic-fetch": "^2.2.1",
     "morgan": "^1.9.0",
-    "sticky-sidebar": "^3.3.1"
+    "newrelic": "^4.1.0",
+    "nodemon": "^1.12.5",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "serialize-javascript": "^1.4.0",
+    "sticky-sidebar": "^3.3.1",
+    "webpack": "^3.10.0",
+    "webpack-node-externals": "^1.6.0"
   }
 }
